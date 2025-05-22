@@ -7,7 +7,7 @@ import Home from "./components/Home/home";
 
 function App() {
   return (
-    <Router basename="/Web-Page-Recreation-2">
+    <Router basename="/Web-Page-Recreation-1">
       <Nav></Nav>
 
       <Routes>
