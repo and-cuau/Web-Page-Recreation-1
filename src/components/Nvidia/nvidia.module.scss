@@ -1,0 +1,283 @@
+.nvidia {
+  background-color: white;
+  position: absolute;
+  top: 400px;
+  background-clip: padding-box;
+  border: 10px solid rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  z-index: 1000;
+  left: 0;
+  right: 0;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 10px;
+
+  p {
+    text-transform: uppercase;
+  }
+
+  .container {
+    display: flex;
+
+    img {
+      width: 50px;
+      height: 50.8px;
+      object-fit: cover;
+      margin-right: 10px;
+      margin-left: 0;
+    }
+
+    p {
+      margin: 0px;
+    }
+
+    .name {
+      font-size: 15px;
+      text-transform: none;
+      font-weight: bold;
+    }
+    .price {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+
+  .categories {
+    font-size: 9px;
+  }
+
+  .buttons {
+    display: flex;
+    width: 100%; // 126 229 8
+    overflow-x: auto;
+    margin: 10px 0;
+    a {
+      background-color: white;
+      color: black;
+      border-radius: 5px;
+      text-decoration: none;
+      padding: 5px 5px;
+      font-size: 14px;
+    }
+
+    a:active {
+      color: black;
+    }
+  }
+
+  .port {
+    width: 90%;
+    height: 80%;
+    overflow-y: hidden;
+    overflow-x: auto;
+    .column {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      width: 140vw;
+      gap: 10px;
+
+      .strong {
+        //background-color: rgba(139, 159, 145, 0.02); // warm grey test
+        background-color: rgba(0, 0, 0, 0.03);
+        border-radius: 20px;
+        padding: 0 10px;
+        // border: 2px solid red;
+        p {
+          font-size: 11px;
+          font-weight: bold;
+        }
+
+        ol {
+          padding: 0 10px;
+        }
+
+        li {
+        }
+
+        .num {
+          font-weight: bold;
+          font-size: 11px;
+          margin: 15px 0;
+
+          .point {
+            font-weight: normal;
+          }
+        }
+
+        ul li::marker {
+          color: rgb(126, 229, 8);
+          font-size: 1em;
+          content: "● ";
+        }
+
+        ul {
+          padding: 0;
+        }
+      }
+
+      .two {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        // grid-template-rows: repeat(2, 1fr);
+        .score {
+          flex-grow: 1;
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+          border-radius: 20px;
+          padding: 0px 20px;
+
+          p {
+            text-transform: none;
+            font-weight: bold;
+          }
+        }
+        .more {
+          flex-grow: 2;
+          background:
+            linear-gradient(
+              to bottom,
+              rgba(102, 226, 85, 0.2) 0%,
+              rgba(46, 139, 87, 0) 60%
+            ),
+            linear-gradient(
+              to top,
+              rgba(0, 191, 255, 0.1) 0%,
+              rgba(0, 191, 255, 0) 60%
+            );
+
+          border-radius: 20px;
+          padding: 5px 15px;
+          p {
+            font-weight: bold;
+            font-size: 11px;
+            text-transform: none;
+          }
+          .views {
+            display: grid;
+            grid-template-rows: repeat(4, 1fr);
+            gap: 5px;
+
+            .view {
+              // width: 90%;
+              // margin-left: auto;
+              // margin-right: auto;
+              // border: 1px solid black;
+              border-radius: 5px;
+              padding: 0 5px;
+              box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+              p {
+                font-weight: normal;
+                font-size: 10px;
+                margin-left: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+p {
+  // text-transform: uppercase
+}
+
+@media screen and (min-width: 376px) {
+  .nvidia {
+    height: auto;
+    border-radius: 30px;
+
+    p {
+    }
+
+    .container {
+      img {
+      }
+
+      p {
+      }
+
+      .name {
+        font-size: 18px;
+      }
+      .price {
+        font-size: 24px;
+      }
+    }
+
+    .categories {
+    }
+
+    .buttons {
+      a {
+      }
+
+      a:active {
+      }
+    }
+
+    .port {
+      width: 100%;
+      .column {
+        width: 100%;
+        .strong {
+          p {
+          }
+          ol {
+          }
+
+          li {
+          }
+
+          .num {
+            .point {
+            }
+          }
+
+          ul li::marker {
+          }
+
+          ul {
+          }
+        }
+
+        .two {
+          .score {
+          }
+          .more {
+            p {
+            }
+            .views {
+              .view {
+                p {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  p {
+    // text-transform: uppercase
+  }
+
+  ol {
+  }
+
+  li {
+  }
+
+  .num {
+    .point {
+    }
+  }
+
+  ul li::marker {
+  }
+
+  ul {
+  }
+}

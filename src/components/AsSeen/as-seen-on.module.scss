@@ -1,0 +1,42 @@
+.as_seen {
+  margin-top: 550px;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  height: 40px;
+  margin: 0 20px;
+}
+
+.logos {
+  display: grid;
+  grid-template-rows: repeat(2, fr);
+  gap: 10px;
+  .top {
+    display: flex;
+    justify-content: center;
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 376px) {
+  .as_seen {
+    margin-top: 200px;
+  }
+
+  .logos {
+    display: flex;
+    justify-content: center;
+  }
+
+  img {
+    height: 80px;
+  }
+}
