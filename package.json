@@ -4,13 +4,16 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://and-cuau.github.io/Web-Page-Recreation-1",
+
+  
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+     "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist -b gh-pages"
+    
   },
   "dependencies": {
     "react": "^19.1.0",
