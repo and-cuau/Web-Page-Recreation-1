@@ -1,6 +1,9 @@
 # Web Page Recreation #1
 This project is a recreation of a home page of a non-existent company named Trend Hunt.
 
+## Live Demo
+[https://and-cuau.github.io/PersonalWebsite/#/home](https://and-cuau.github.io/PersonalWebsite/#/home)
+
 ## Technologies Used  
 - **Frontend**: React, HTML, CSS, Typescript
 
