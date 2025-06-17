@@ -1,5 +1,5 @@
 # Web Page Recreation #1
-This project is a recreation of a home page of a non-existent company named Trend Hunt.
+This project is a recreation of a home page of a non-existent company named Trendhunt. [Link to the original Trendhunt homepage](https://and-cuau.github.io/Web-Page-Recreation-1/)
 
 ## Live Demo
 [https://and-cuau.github.io/Web-Page-Recreation-1/](https://and-cuau.github.io/Web-Page-Recreation-1/)
